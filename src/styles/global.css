@@ -1,3 +1,10 @@
 html {
-    background-color: lavenderblush;
+    background-color: #f5f5f5;
+    font-family: "Open Sans";
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }

@@ -5,3 +5,20 @@
 .title {
     font-size: 28px;
 }
+
+.notesContainer {
+    margin-top: 20px;
+}
+
+.contactList {
+    display: flex;
+}
+
+.contactItem {
+    margin-right: 15px;
+}
+
+.photo {
+    width: 150px;
+    border-radius: 50%;
+}
