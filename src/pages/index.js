@@ -11,10 +11,16 @@ export default () => (
     </Helmet>
 
     <img className={mainStyles.photo} src="/images/ava.jpg"  alt=""/>
-    <h1 className={mainStyles.title}>Smirnov Dmitriy</h1>
-    <p>Frontend engineer.</p>
-
-    <p><strong>Working with:</strong> HTML, CSS, JS, TS, React, Node, Python</p>
+    <h1 className={mainStyles.title}>
+      Smirnov Dmitriy
+      {/*<Link to="/cv" className={mainStyles.cvLink}>CV</Link>*/}
+    </h1>
+    <p className={mainStyles.desc}>
+      Hello! 👋 <br/>
+      I am a Frontend engineer from
+      Saint-Petersburg, Russia. <br/>
+      I'm passionate about learning new things and traveling.
+    </p>
 
     <ul className={mainStyles.contactList}>
       <li className={mainStyles.contactItem}>
@@ -24,7 +30,10 @@ export default () => (
         <a target="_blank" href="https://github.com/patrickjsmirnov">Github</a>
       </li>
       <li className={mainStyles.contactItem}>
-        <a target="_blank" href="https://twitter.com/smirnovds93">Twitter</a>
+        <a target="_blank" href="https://twitter.com/patrickjsmirnov">Twitter</a>
+      </li>
+      <li className={mainStyles.contactItem}>
+        <a target="_blank" href="https://t.me/smirnovds">Telegram</a>
       </li>
     </ul>
   </div>

@@ -1,0 +1,40 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 500px;
+    column-gap: 20px;
+    padding: 30px;
+}
+
+
+.left {
+    /*border: 1px solid black;*/
+}
+
+.right {
+    /*border: 1px solid black;*/
+}
+
+.sectionTitle {
+    font-size: 40px;
+}
+
+/* skills */
+
+.skillsSection h3 {
+    margin: 0 0 10px 0;
+}
+
+.skillsList {
+    margin: 0 0 25px 0;
+}
+
+.skillItem {
+    margin-bottom: 5px;
+}
+
+/* media */
+@media (max-width: 678px) {
+    .main {
+        grid-template-columns: 1fr;
+    }
+}
